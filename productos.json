@@ -1,0 +1,222 @@
+[
+  {
+    "nombre": "MSI Bravo 15 C7VFKP 15.6'' 144 Hz IPS AMD Ryzen 9 7940HS GeForce RTX 4060 Laptop GPU 16GB Memory 1 TB NVMe SSD Windows 11 Home 64-bit Gaming Laptop",
+    "precio": "999",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-156-587-15.jpg"
+  },
+  {
+    "nombre": "LENOVO ThinkPad E16 Gen 1 Business Laptop, 16\" FHD+ Display, AMD Ryzen 7 7730U, 24GB RAM, 1TB SSD, Backlit Keyboard, Fingerprint Reader, HDMI, RJ-45, Wi-Fi 6, Windows 11 Pro, Black",
+    "precio": "679",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/B0GJD2402050W39M8D8.jpg"
+  },
+  {
+    "nombre": "Lenovo ThinkPad E14 Gen 5 Business Laptop, 14\" FHD+ Display, AMD Ryzen 7 7730U (beat i7-1255U), 16GB RAM, 1TB SSD, FP Reader, Backlit Keyboard, HDMI, RJ45, Wi-Fi 6, Windows 11 Pro, Black",
+    "precio": "719",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/B0GJD2312140DJJKT31.jpg"
+  },
+  {
+    "nombre": "Auusda Business Laptop, 32GB RAM 1TB SSD, Windows 11 Pro Computers, 15.6\" 1920 x 1080 Screen, Intel N95 CPU, Backlight Keyboard, Fingerprint Reader, Mini HDMI, USB-A, Silver",
+    "precio": "368",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/BRFSS2310240LWAW9E4.jpg"
+  },
+  {
+    "nombre": "MSI Bravo 15 B7EDP-024US 15.6'' 144 Hz IPS AMD Ryzen 7 7840HS AMD Radeon RX 6550M 16GB Memory 512 GB NVMe SSD Windows 11 Home 64-bit Gaming Laptop",
+    "precio": "649",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-156-616-15.jpg"
+  },
+  {
+    "nombre": "REFURBISHED HP 840 G6 EliteBook Laptop Intel Core i5 -8365U (1.60GHz) 16GB Memory 256 GB SSD Intel UHD Graphics 14.0\" Windows 11 Pro 64-bit",
+    "precio": "209",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-273-967-V01.jpg"
+  },
+  {
+    "nombre": "Acer Laptop Aspire 5 Intel Core i7-1355U 16 GB LPDDR5 Memory 512 GB PCIe SSD Intel Iris Xe Graphics 15.6'' Windows 11 Home 64-bit A515-58M-78JL",
+    "precio": "549",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-360-267-S03.jpg"
+  },
+  {
+    "nombre": "REFURBISHED Lenovo ThinkPad T480 Laptop Intel Core i5 8th Gen 8350U (1.70GHz) 16 GB Memory 256 GB SSD Intel UHD Graphics 620 14.0\" Windows 11 Pro",
+    "precio": "209",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-840-433-01.jpg"
+  },
+  {
+    "nombre": "Lenovo IdeaPad 1 Student Laptop, 15.6\" FHD Display, Intel Dual Core Processor, 20GB RAM, 512GB SSD + 128GB eMMC, 1 Yr Office 365, Wi-Fi 6, Windows 11 Home, Grey",
+    "precio": "329",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/B0GJD23122215QLVR35.jpg"
+  },
+  {
+    "nombre": "REFURBISHED HP Laptop Intel Core i5-1235U 3.30 GHz 12GB Memory 512GB PCIe SSD Intel Iris Xe Graphics 17.3\" Windows 11 Home 64-bit 17-cn2013ca (Bilingual English/French Keyboard)",
+    "precio": "399",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-841-866-02.jpg"
+  },
+  {
+    "nombre": "Acer Laptop Aspire 5 Intel Core i5-1335U 16 GB LPDDR5 Memory 512 GB PCIe SSD Intel Iris Xe Graphics 15.6'' Windows 11 Home 64-bit A515-58M-54LG",
+    "precio": "449",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-360-278-15.jpg"
+  },
+  {
+    "nombre": "Acer Aspire 3 Laptop for Student & Business, 15.6\" FHD Micro-Edge Display, AMD Ryzen 7 5700U (Up to 4.3 GHz), 64GB RAM, 1TB NVMe SSD, WiFi 6, Keypad, Webcam, USB-C, RJ45, HDMI, Mytrix HDMI, Win 11 Pro",
+    "precio": "650",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/A6V6D2406240NWFN58B.jpg"
+  },
+  {
+    "nombre": "Auusda Business Laptop, 32GB RAM 1TB SSD, Windows 11 Pro Computers, 15.6\" 1920 x 1080 Screen, Intel N95 CPU, Backlight Keyboard, Fingerprint Reader, Mini HDMI, USB-A, Silver",
+    "precio": "368",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/BRFSS2310240LWAW9E4.jpg"
+  },
+  {
+    "nombre": "REFURBISHED Apple MacBook Air Laptop Core i5 1.4GHz 8GB RAM 128GB SSD 13\" Silver MD760LL/B (2014) - Very Good Condition",
+    "precio": "154",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/A7WPD21111616EFCY4B.jpg"
+  },
+  {
+    "nombre": "ASUS E410 Laptop, 14\" FHD 1920x1080 Non-touch 60Hz, Intel Celeron N4500, Intel UHD Graphics, 4GB RAM, 64GB Storage, Wi-Fi, Windows 11 Home, Blue",
+    "precio": "199",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/B0GJD2407090XPTC763.jpg"
+  },
+  {
+    "nombre": "HP 2023 Newest Notebook Laptop, 17.3\" HD+ Touchscreen, 13th Gen Intel Core i7-1355U Processor, 64GB RAM, 2TB PCIe SSD, Webcam, Fingerprint Reader, Wi-Fi 6, Windows 11 Home, Silver",
+    "precio": "959",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/B0GJD24070114L41Q4F.jpg"
+  },
+  {
+    "nombre": "REFURBISHED Lenovo N22 11.6\" Chromebook 80SF0001US Laptop Intel Celeron N3050 1.6GHz 4GB 16GB",
+    "precio": "52",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/A10V_1_20200114245156383.jpg"
+  },
+  {
+    "nombre": "Lenovo V15 Gen 3 Business Laptop, 15.6\" FHD Display, Intel Core i5-1235U, 16GB RAM, 512GB SSD, Webcam, HDMI, RJ-45, Wi-Fi, Windows 11 Home, Black",
+    "precio": "409",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/B0GJD2406211989V59A.jpg"
+  },
+  {
+    "nombre": "Acer Nitro V ANV15-51-75HE 15.6'' 144 Hz IPS Intel Core i7-13620H GeForce RTX 4050 Laptop GPU 16GB Memory 1 TB PCIe SSD Windows 11 Home 64-bit Gaming Laptop",
+    "precio": "869",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-360-319-09.jpg"
+  },
+  {
+    "nombre": "REFURBISHED HP Laptop ProBook 650 G1 Intel Core i7 4th Gen 4810MQ QUAD CORE (2.80 GHz) 16 GB Memory 512 GB SSD 15.6\" FHD Screen 1920X1080 DVD Windows 10 Pro 64-Bit",
+    "precio": "249",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/A5WM_132062418245892724ioMYhrkyj8.jpg"
+  },
+  {
+    "nombre": "REFURBISHED HP EliteBook 840 G5 Intel Core i5 8th Gen 8350U (1.70GHz) 16 GB Memory 256 GB SSD Intel UHD Graphics 620 14.0\" Windows 11 Pro 64-bit",
+    "precio": "204",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-273-158-02.jpg"
+  },
+  {
+    "nombre": "REFURBISHED DELL Latitude 7410 Laptop Intel Core i7-10610U 16GB RAM 512 GB SSD Intel UHD Graphics 14.0\" FHD Windows 11 Pro 64-bit",
+    "precio": "309",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-833-858-01.jpg"
+  },
+  {
+    "nombre": "Auusda Windows 11 Pro Laptop, 8GB RAM 256GB SSD, Intel Celeron J4105 Processor up to 2.50GHz, 14.1\" 1080P IPS LCD Screen, Traditional Laptop Computers",
+    "precio": "199",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/BRFSS23102505GH6RFA.jpg"
+  },
+  {
+    "nombre": "REFURBISHED Acer Aspire 3 - 15.6\" Laptop AMD Ryzen 5 7520U 2.80GHz 8GB RAM 512GB SSD W11H (NX.KJZAA.001 - A315-24PT-R90Z)",
+    "precio": "259",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/1TS-000X-05MV2-01.jpg"
+  },
+  {
+    "nombre": "REFURBISHED Apple MacBook Pro Laptop Core i9 2.4GHz 32GB RAM 512GB SSD 16\" Space Gray MVVK2LL/A (2019) - Very Good Condition",
+    "precio": "724",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/A7WPD23110717ZZ0S14.jpg"
+  },
+  {
+    "nombre": "MSI Modern 14 14\" Ultra Thin and Light Laptop AMD Ryzen 7-7730U UMA 16GB 512GB NVMe SSD Win 11 home, C7M-048US",
+    "precio": "499",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-156-444-03.jpg"
+  },
+  {
+    "nombre": "Microsoft Surface Pro 9 For Business - Intel Core i5 10-Core (12th Gen) - 13\" PixelSense Flow 10-Point Touchscreen - 16GB LPDDR5 - 256GB SSD - Windows 11 Pro - Platinum QIA-00001",
+    "precio": "999",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-736-763-01.jpg"
+  },
+  {
+    "nombre": "Samsung Galaxy Book3 Pro NP964XFG-KC2US 16\" Notebook - 3K - 2880 x 1800 - Intel Core i5 13th Gen i5-1340P 1.90 GHz - Intel Evo Platform - 16 GB Total RAM - 16 GB On-board Memory - 512 GB SSD - Gr",
+    "precio": "869",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/A0ZXD2304120VTBCB72.jpg"
+  },
+  {
+    "nombre": "REFURBISHED HP Notebooks ENVY Intel Core i7-1355U 32GB Memory 1 TB PCIe SSD GeForce RTX 3050 Laptop GPU 17.3\" Touchscreen Windows 11 Home 64-bit 17-cr1025cl",
+    "precio": "789",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/1TS-000D-1JS59-06.jpg"
+  },
+  {
+    "nombre": "HP Essential 255 G8 Laptop, 15.6\" FHD Display, AMD Ryzen 5 5500U, 32GB RAM, 1TB PCIe SSD, Webcam, SD Card Reader, HDMI, Wi-Fi 6, Windows 11 Home, Dark Ash Silver",
+    "precio": "479",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/B0GJS240205100ORS02.jpg"
+  },
+  {
+    "nombre": "Lenovo V15 G3 Laptop, 15.6\" FHD Display, Intel Core i7-1255U Upto 4.7GHz, 16GB RAM, 512GB SSD, Windows 11 Pro",
+    "precio": "579",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/AA0SD24050718RES0ED.jpg"
+  },
+  {
+    "nombre": "REFURBISHED DELL Laptop Latitude 5400 Intel Core i5 8th Gen 8365U (1.60GHz) 16 GB Memory 512 GB SSD Intel UHD Graphics 620 14.0\" HD Windows 10 Pro 64-bit",
+    "precio": "194",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-343-982-03.jpg"
+  },
+  {
+    "nombre": "Auusda 15.6\" Gaming Laptop w/AMD Ryzen 7 5700U up to 4.3GHz, 32GB DDR4 RAM 1TB NVMe SSD, Windows 11 Pro Laptop Computer, Backlit Keyboard, Fingerprint Unlock, Notebook, Gray",
+    "precio": "599",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/BRFSS2402020HZ1079D.jpg"
+  },
+  {
+    "nombre": "MSI Modern 14 14\" Ultra Thin and Light Laptop AMD Ryzen 5-7530U UMA 16GB 512GB NVMe SSD Win 11 home, C7M-049US",
+    "precio": "429",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-156-444-03.jpg"
+  },
+  {
+    "nombre": "Microsoft Surface Go 4 - 10.5\" PixelSense Display - Intel Processor N200 - 8GB Memory - 64GB SSD - Windows 11 Pro - Platinum XGT-00001",
+    "precio": "598",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-736-938-01.png"
+  },
+  {
+    "nombre": "Samsung Galaxy Book3 Pro NP964XFG-KC1US 16\" Notebook - 3K - 2880 x 1800 - Intel Core i7 13th Gen i7-1360P 2.20 GHz - Intel Evo Platform - 32 GB Total RAM - 32 GB On-board Memory - 1 TB SSD - Grap",
+    "precio": "1,399",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/A24GD2304220CGM5EAA.jpg"
+  },
+  {
+    "nombre": "Lenovo Legion Pro Newest Ultimate i9 Gaming Laptop, 16\" WQXGA 240Hz, Intel Core i9-14900HX, NVIDIA GeForce RTX 4090, 64GB DDR5 RAM, 2TB SSD, HDMI, RGB Backlit KB, Webcam, Wi-Fi 6, Windows 11 Home",
+    "precio": "3,539",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/B0GJD24062119FA4N52.jpg"
+  },
+  {
+    "nombre": "MSI Cyborg Gaming Laptop - 13th Gen Intel Core i7-13620H - GeForce RTX 4050 - 144HZ 1080p - 16GB RAM - 512GB SSD - A13VE-218US Notebook PC",
+    "precio": "879",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/2WC-000C-0GXH3-02.jpg"
+  },
+  {
+    "nombre": "Auusda Windows 11 Pro Laptop, 8GB RAM 256GB SSD, Intel Celeron J4105 Processor up to 2.50GHz, 14.1\" 1080P IPS LCD Screen, Traditional Laptop Computers",
+    "precio": "199",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/BRFSS23102505GH6RFA.jpg"
+  },
+  {
+    "nombre": "Lenovo IdeaPad Flex 5 16IAU7 Intel Core i7-1255U 16GB Memory 1 TB PCIe SSD Intel Iris Xe Graphics 16'' Touchscreen 2560 x 1600 Convertible 2-in-1 Laptop Windows 11 Home 64-bit 82R80000US",
+    "precio": "649",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-840-489-07.jpg"
+  },
+  {
+    "nombre": "ASUS Vivobook Go 15.6\" OLED Laptop, AMD Ryzen 5 7520U, 16GB, 512GB, Windows 11 Home, Cool Silver, E1504FA-NS54",
+    "precio": "499",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-236-515-19.jpg"
+  },
+  {
+    "nombre": "MSI Titan 18 HX A14VIG-036US 18'' 120 Hz Mini LED Intel Core i9-14900HX GeForce RTX 4090 Laptop GPU 128GB Memory 4 TB PCIe SSD Windows 11 Pro 64-bit Gaming Laptop",
+    "precio": "4,949",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/34-156-588-20.jpg"
+  },
+  {
+    "nombre": "ACEMAGIC Gaming Laptop AMD Ryzen 7 5700U(8C/16T), Radeon RX Vega 8 Graphics,16.1FHD Display,16GB RAM 512GB NVMe SSD Laptop Computer with Backlit KB,Type_C (Full Function),WiFi 6, 53Wh Battery",
+    "precio": "419",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/BUU5S2406060IY9DG37.jpg"
+  },
+  {
+    "nombre": "Lenovo IdeaPad 1 Student Laptop, 15.6\" FHD Display, Intel Dual Core Processor, 20GB RAM, 1TB SSD + 128GB eMMC, 1 Yr Office 365, Wi-Fi 6, Windows 11 Home, Grey",
+    "precio": "349",
+    "imagen": "https://c1.neweggimages.com/productimage/nb300/B0GJD23122215QLVR35.jpg"
+  }
+]
