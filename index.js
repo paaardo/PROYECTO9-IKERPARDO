@@ -5,72 +5,73 @@ const fs = require('fs')
   const navegador = await puppeteer.launch({ headless: false })
   const pagina = await navegador.newPage()
   const productos = []
+  let numeroPagina = 1
+  const maxPaginas = 2
 
-  let haySiguientePagina = true
-  let indicePagina = 1
-
-  while (haySiguientePagina) {
+  while (numeroPagina <= maxPaginas) {
     try {
-      const url = `https://www.newegg.com/p/pl?d=laptop&page=${indicePagina}`
+      const url = `https://www.newegg.com/p/pl?d=laptop&page=${numeroPagina}`
       console.log(`Navegando a: ${url}`)
       await pagina.goto(url, { waitUntil: 'networkidle2', timeout: 60000 })
 
       await pagina.evaluate(() => {
-        const eliminarModales = () => {
-          const selectoresModales = [
-            '[class*="modal"]',
-            '[class*="popup"]',
-            '[class*="overlay"]'
-          ]
-          selectoresModales.forEach((selector) => {
-            const modales = document.querySelectorAll(selector)
-            modales.forEach((modal) => modal.remove())
-          })
+        const botonAceptarCookies = document.querySelector(
+          '.osano-cm-accept-all'
+        )
+        if (botonAceptarCookies) {
+          botonAceptarCookies.click()
+        } else {
+          const bannerCookies = document.querySelector(
+            '[aria-label="Banner de consentimiento de cookies"]'
+          )
+          if (bannerCookies) {
+            bannerCookies.remove()
+          }
         }
-
-        eliminarModales()
-
-        const selectoresModalesAdicionales = ['.modal', '.popup', '.overlay']
-        selectoresModalesAdicionales.forEach((selector) => {
-          const modales = document.querySelectorAll(selector)
-          modales.forEach((modal) => modal.remove())
-        })
       })
 
       await pagina.waitForSelector('.item-cell', { timeout: 60000 })
 
       const html = await pagina.content()
-      fs.writeFileSync(`pagina${indicePagina}.html`, html)
+      fs.writeFileSync(`pagina${numeroPagina}.html`, html)
 
       const nuevosProductos = await pagina.evaluate(() => {
-        const items = document.querySelectorAll('.item-cell')
-        return Array.from(items).map((item) => {
-          const elementoNombre = item.querySelector('.item-title')
-          const nombre = elementoNombre ? elementoNombre.innerText : 'N/A'
-          const elementoPrecio = item.querySelector('.price-current strong')
-          const precio = elementoPrecio ? elementoPrecio.innerText : 'N/A'
-          const elementoImagen = item.querySelector('.item-img img')
-          const imagen = elementoImagen ? elementoImagen.src : 'N/A'
+        const elementos = document.querySelectorAll('.item-cell')
+        return Array.from(elementos).map((elemento) => {
+          const nombreElemento = elemento.querySelector('.item-title')
+          const nombre = nombreElemento ? nombreElemento.innerText : 'N/A'
+          const precioElemento = elemento.querySelector('.price-current strong')
+          const precio = precioElemento ? precioElemento.innerText : 'N/A'
+          const imagenElemento = elemento.querySelector('.item-img img')
+          const imagen = imagenElemento ? imagenElemento.src : 'N/A'
           return { nombre, precio, imagen }
         })
       })
 
-      console.log(`Productos en la página ${indicePagina}:`, nuevosProductos)
+      console.log(`Productos en la página ${numeroPagina}:`, nuevosProductos)
 
       productos.push(...nuevosProductos)
 
-      haySiguientePagina = await pagina.evaluate(() => {
-        const botonSiguientePagina = document.querySelector('.btn-next')
-        return (
-          botonSiguientePagina &&
-          !botonSiguientePagina.classList.contains('disabled')
-        )
-      })
-
-      indicePagina++
+      if (numeroPagina < maxPaginas) {
+        await pagina.evaluate(() => {
+          const botonSiguientePagina = document.querySelector(
+            '.btn-group-cell a[title="Next"]'
+          )
+          if (botonSiguientePagina) {
+            botonSiguientePagina.click()
+          }
+        })
+        await pagina.waitForNavigation({
+          waitUntil: 'networkidle2',
+          timeout: 60000
+        })
+        numeroPagina++
+      } else {
+        break
+      }
     } catch (error) {
-      console.error(`Error en la página ${indicePagina}:`, error)
-      haySiguientePagina = false
+      console.error(`Error en la página ${numeroPagina}:`, error)
+      break
     }
   }
 
